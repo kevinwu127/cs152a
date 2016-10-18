@@ -1,0 +1,563 @@
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/kevin-shuowang/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/mole/whack_a_mole.xst" -ofn "C:/Users/152/Desktop/mole/whack_a_mole.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 whack_a_mole.ngc whack_a_mole.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o whack_a_mole_map.ncd whack_a_mole.ngd whack_a_mole.pcf 
+par -w -intstyle ise -ol high -mt off whack_a_mole_map.ncd whack_a_mole.ncd whack_a_mole.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml whack_a_mole.twx whack_a_mole.ncd -o whack_a_mole.twr whack_a_mole.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f whack_a_mole.ut whack_a_mole.ncd 

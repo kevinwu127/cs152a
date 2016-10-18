@@ -1,0 +1,973 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: whack_a_mole.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "whack_a_mole.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "whack_a_mole"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : whack_a_mole
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\152\Desktop\mole\whack.v" into library work
+Parsing module <whack>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\start.v" into library work
+Parsing module <start>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\sound.v" into library work
+Parsing module <sound>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\reset.v" into library work
+Parsing module <reset>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\random.v" into library work
+Parsing module <random>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\mole.v" into library work
+Parsing module <mole>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\konami.v" into library work
+Parsing module <konami>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\display.v" into library work
+Parsing module <display>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\difficulty.v" into library work
+Parsing module <difficulty>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\clock.v" into library work
+Parsing module <clock>.
+Analyzing Verilog file "C:\Users\152\Desktop\mole\whack_a_mole.v" into library work
+Parsing module <whack_a_mole>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <whack_a_mole>.
+
+Elaborating module <start>.
+
+Elaborating module <reset>.
+
+Elaborating module <difficulty>.
+
+Elaborating module <clock>.
+
+Elaborating module <random>.
+
+Elaborating module <mole>.
+
+Elaborating module <display>.
+WARNING:HDLCompiler:81 - "C:\Users\152\Desktop\mole\display.v" Line 167: seg may be used uninitialized in static subprogram convert and create unintended latch behavior
+
+Elaborating module <whack>.
+WARNING:HDLCompiler:413 - "C:\Users\152\Desktop\mole\whack.v" Line 196: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Desktop\mole\whack.v" Line 204: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Desktop\mole\whack.v" Line 212: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Desktop\mole\whack.v" Line 218: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <sound>.
+
+Elaborating module <konami>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <whack_a_mole>.
+    Related source file is "C:\Users\152\Desktop\mole\whack_a_mole.v".
+    Summary:
+	no macro.
+Unit <whack_a_mole> synthesized.
+
+Synthesizing Unit <start>.
+    Related source file is "C:\Users\152\Desktop\mole\start.v".
+    Found 1-bit register for signal <enable>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <start> synthesized.
+
+Synthesizing Unit <reset>.
+    Related source file is "C:\Users\152\Desktop\mole\reset.v".
+    Found 1-bit register for signal <reset>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <reset> synthesized.
+
+Synthesizing Unit <difficulty>.
+    Related source file is "C:\Users\152\Desktop\mole\difficulty.v".
+    Found 32-bit register for signal <count>.
+    Found 1-bit register for signal <difficulty>.
+    Found 32-bit adder for signal <count[31]_GND_4_o_add_4_OUT> created at line 51.
+    Found 32-bit comparator lessequal for signal <n0001> created at line 46
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <difficulty> synthesized.
+
+Synthesizing Unit <clock>.
+    Related source file is "C:\Users\152\Desktop\mole\clock.v".
+    Found 32-bit register for signal <count1>.
+    Found 1-bit register for signal <fast>.
+    Found 32-bit register for signal <count3>.
+    Found 1-bit register for signal <blink>.
+    Found 32-bit register for signal <count4>.
+    Found 1-bit register for signal <sound>.
+    Found 32-bit register for signal <count5>.
+    Found 1-bit register for signal <mole_clk>.
+    Found 32-bit adder for signal <count1[31]_GND_5_o_add_5_OUT> created at line 81.
+    Found 32-bit adder for signal <count3[31]_GND_5_o_add_11_OUT> created at line 96.
+    Found 32-bit adder for signal <count4[31]_GND_5_o_add_16_OUT> created at line 108.
+    Found 32-bit adder for signal <count5[31]_GND_5_o_add_21_OUT> created at line 121.
+    Found 32-bit comparator greater for signal <n0000> created at line 64
+    Found 32-bit comparator greater for signal <n0004> created at line 75
+    Found 32-bit comparator greater for signal <n0014> created at line 90
+    Found 32-bit comparator greater for signal <n0022> created at line 102
+    Found 32-bit comparator greater for signal <n0030> created at line 115
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred 132 D-type flip-flop(s).
+	inferred   5 Comparator(s).
+Unit <clock> synthesized.
+
+Synthesizing Unit <random>.
+    Related source file is "C:\Users\152\Desktop\mole\random.v".
+    Found 5-bit register for signal <data>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <random> synthesized.
+
+Synthesizing Unit <mole>.
+    Related source file is "C:\Users\152\Desktop\mole\mole.v".
+WARNING:Xst:647 - Input <mole<4:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <blink>.
+    Found 8-bit register for signal <led>.
+    Found 1-bit register for signal <end_enable>.
+    Found 1-bit register for signal <start_enable>.
+    Found 32-bit register for signal <i>.
+    Found 32-bit adder for signal <i[31]_GND_7_o_add_8_OUT> created at line 166.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  43 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <mole> synthesized.
+
+Synthesizing Unit <display>.
+    Related source file is "C:\Users\152\Desktop\mole\display.v".
+    Found 8-bit register for signal <seg>.
+    Found 4-bit register for signal <AN>.
+    Found 8-bit register for signal <convert.seg>.
+    Found 32-bit register for signal <count>.
+    Found 32-bit subtractor for signal <count[31]_unary_minus_2_OUT> created at line 77.
+    Found 32-bit subtractor for signal <GND_8_o_unary_minus_4_OUT> created at line 77.
+    Found 32-bit adder for signal <GND_8_o_GND_8_o_add_115_OUT> created at line 162.
+    Found 4x20-bit Read Only RAM for signal <_n0435>
+    Found 8-bit 4-to-1 multiplexer for signal <_n0349> created at line 138.
+    Found 8-bit 4-to-1 multiplexer for signal <_n0359> created at line 138.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred  52 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
+Unit <display> synthesized.
+
+Synthesizing Unit <whack>.
+    Related source file is "C:\Users\152\Desktop\mole\whack.v".
+    Found 4-bit register for signal <digit1>.
+    Found 4-bit register for signal <digit2>.
+    Found 4-bit register for signal <digit3>.
+    Found 1-bit register for signal <state<7>>.
+    Found 1-bit register for signal <state<6>>.
+    Found 1-bit register for signal <state<5>>.
+    Found 1-bit register for signal <state<4>>.
+    Found 1-bit register for signal <state<3>>.
+    Found 1-bit register for signal <state<2>>.
+    Found 1-bit register for signal <state<1>>.
+    Found 1-bit register for signal <state<0>>.
+    Found 8-bit register for signal <led_save>.
+    Found 8-bit register for signal <led_out>.
+    Found 1-bit register for signal <sound_enable>.
+    Found 1-bit register for signal <god>.
+    Found 4-bit register for signal <digit0>.
+    Found 4-bit adder for signal <digit0[3]_GND_10_o_add_12_OUT> created at line 196.
+    Found 4-bit adder for signal <digit1[3]_GND_10_o_add_15_OUT> created at line 204.
+    Found 4-bit adder for signal <digit2[3]_GND_10_o_add_18_OUT> created at line 212.
+    Found 4-bit adder for signal <digit3[3]_GND_10_o_add_22_OUT> created at line 218.
+    Found 8-bit comparator equal for signal <n0000> created at line 77
+    Found 1-bit comparator equal for signal <n0010> created at line 94
+    Found 4-bit comparator lessequal for signal <n0013> created at line 188
+    Found 4-bit comparator lessequal for signal <n0015> created at line 190
+    Found 4-bit comparator lessequal for signal <n0017> created at line 192
+    Found 4-bit comparator greater for signal <digit0[3]_PWR_10_o_LessThan_12_o> created at line 194
+    Found 1-bit comparator equal for signal <n0047> created at line 105
+    Found 1-bit comparator equal for signal <n0071> created at line 116
+    Found 1-bit comparator equal for signal <n0095> created at line 127
+    Found 1-bit comparator equal for signal <n0119> created at line 138
+    Found 1-bit comparator equal for signal <n0143> created at line 149
+    Found 1-bit comparator equal for signal <n0167> created at line 160
+    Found 1-bit comparator equal for signal <n0191> created at line 171
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  42 D-type flip-flop(s).
+	inferred  13 Comparator(s).
+	inferred 168 Multiplexer(s).
+Unit <whack> synthesized.
+
+Synthesizing Unit <sound>.
+    Related source file is "C:\Users\152\Desktop\mole\sound.v".
+WARNING:Xst:647 - Input <god_mode> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <activated>.
+    Found 32-bit register for signal <count>.
+    Found 1-bit register for signal <speaker>.
+    Found 32-bit adder for signal <count[31]_GND_11_o_add_3_OUT> created at line 64.
+    Found 32-bit comparator lessequal for signal <n0002> created at line 54
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <sound> synthesized.
+
+Synthesizing Unit <konami>.
+    Related source file is "C:\Users\152\Desktop\mole\konami.v".
+    Found 1-bit register for signal <down_btn_sig>.
+    Found 1-bit register for signal <left_btn_sig>.
+    Found 1-bit register for signal <right_btn_sig>.
+    Found 9-bit register for signal <mem>.
+    Found 1-bit register for signal <god_mode>.
+    Found 1-bit register for signal <up_btn_sig>.
+    Found finite state machine <FSM_0> for signal <mem>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 52                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 5                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | mem[8]_PWR_12_o_equal_20_o (positive)          |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000000000                                      |
+    | Power Up State     | 000000000                                      |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <konami> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x20-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 14
+ 32-bit adder                                          : 8
+ 32-bit subtractor                                     : 2
+ 4-bit adder                                           : 4
+# Registers                                            : 46
+ 1-bit register                                        : 27
+ 32-bit register                                       : 8
+ 4-bit register                                        : 5
+ 5-bit register                                        : 1
+ 8-bit register                                        : 5
+# Comparators                                          : 20
+ 1-bit comparator equal                                : 8
+ 32-bit comparator greater                             : 5
+ 32-bit comparator lessequal                           : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator lessequal                            : 3
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 177
+ 1-bit 2-to-1 multiplexer                              : 53
+ 32-bit 2-to-1 multiplexer                             : 4
+ 4-bit 2-to-1 multiplexer                              : 115
+ 8-bit 2-to-1 multiplexer                              : 3
+ 8-bit 4-to-1 multiplexer                              : 2
+# FSMs                                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <clock>.
+The following registers are absorbed into counter <count1>: 1 register on signal <count1>.
+The following registers are absorbed into counter <count3>: 1 register on signal <count3>.
+The following registers are absorbed into counter <count4>: 1 register on signal <count4>.
+The following registers are absorbed into counter <count5>: 1 register on signal <count5>.
+Unit <clock> synthesized (advanced).
+
+Synthesizing (advanced) Unit <difficulty>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <difficulty> synthesized (advanced).
+
+Synthesizing (advanced) Unit <display>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0435> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 20-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0220<1:0>>    |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mole>.
+The following registers are absorbed into counter <i>: 1 register on signal <i>.
+Unit <mole> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sound>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <sound> synthesized (advanced).
+
+Synthesizing (advanced) Unit <whack>.
+The following registers are absorbed into counter <digit3>: 1 register on signal <digit3>.
+Unit <whack> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x20-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 6
+ 32-bit adder                                          : 1
+ 32-bit subtractor                                     : 2
+ 4-bit adder                                           : 3
+# Counters                                             : 8
+ 32-bit up counter                                     : 7
+ 4-bit up counter                                      : 1
+# Registers                                            : 120
+ Flip-Flops                                            : 120
+# Comparators                                          : 20
+ 1-bit comparator equal                                : 8
+ 32-bit comparator greater                             : 5
+ 32-bit comparator lessequal                           : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator lessequal                            : 3
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 174
+ 1-bit 2-to-1 multiplexer                              : 53
+ 32-bit 2-to-1 multiplexer                             : 2
+ 4-bit 2-to-1 multiplexer                              : 114
+ 8-bit 2-to-1 multiplexer                              : 3
+ 8-bit 4-to-1 multiplexer                              : 2
+# FSMs                                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <konami/FSM_0> on signal <mem[1:3]> with sequential encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ 000000000 | 000
+ 111000000 | 001
+ 111100000 | 010
+ 110000000 | 011
+ 100000000 | 100
+-----------------------
+WARNING:Xst:2677 - Node <count_2> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_3> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_4> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_5> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_6> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_7> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_8> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_9> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_10> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_11> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_12> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_13> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_14> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_15> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_16> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_17> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_18> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_19> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_20> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_21> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_22> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_23> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_24> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_25> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_26> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_27> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_28> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_29> of sequential type is unconnected in block <display>.
+WARNING:Xst:2677 - Node <count_30> of sequential type is unconnected in block <display>.
+
+Optimizing unit <whack_a_mole> ...
+
+Optimizing unit <whack> ...
+
+Optimizing unit <clock> ...
+
+Optimizing unit <konami> ...
+
+Optimizing unit <difficulty> ...
+
+Optimizing unit <display> ...
+WARNING:Xst:1710 - FF/Latch <convert.seg_7> (without init value) has a constant value of 1 in block <display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <seg_7> (without init value) has a constant value of 1 in block <display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <convert.seg_7> (without init value) has a constant value of 1 in block <display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <seg_7> (without init value) has a constant value of 1 in block <display>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <sound> ...
+
+Optimizing unit <mole> ...
+
+Optimizing unit <random> ...
+WARNING:Xst:1293 - FF/Latch <diff/count_31> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_30> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_29> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_28> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_27> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_26> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_25> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_24> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_23> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_22> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <display/count_31> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_12> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_13> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_14> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_15> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_16> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_17> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_18> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_19> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_20> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <diff/count_21> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_21> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_20> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_19> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_18> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_17> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_16> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_15> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count1_31> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count1_30> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count1_29> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count1_28> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count1_27> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count1_26> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_15> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_16> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_17> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_18> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_19> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_20> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_21> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_22> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_23> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_24> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_25> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_26> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_27> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_28> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_29> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_30> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clock/count5_31> (without init value) has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_22> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_23> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_24> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_25> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_26> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_27> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_28> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_29> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_30> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count3_31> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count4_25> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count4_26> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count4_27> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count4_28> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count4_29> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count4_30> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <clock/count4_31> has a constant value of 0 in block <whack_a_mole>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block whack_a_mole, actual ratio is 6.
+FlipFlop whack/god has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 253
+ Flip-Flops                                            : 253
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : whack_a_mole.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 891
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 121
+#      LUT2                        : 35
+#      LUT3                        : 41
+#      LUT4                        : 75
+#      LUT5                        : 90
+#      LUT6                        : 162
+#      MUXCY                       : 192
+#      MUXF7                       : 7
+#      VCC                         : 1
+#      XORCY                       : 159
+# FlipFlops/Latches                : 253
+#      FD                          : 52
+#      FDE                         : 14
+#      FDR                         : 126
+#      FDRE                        : 52
+#      FDS                         : 5
+#      FDSE                        : 4
+# Clock Buffers                    : 4
+#      BUFG                        : 3
+#      BUFGP                       : 1
+# IO Buffers                       : 34
+#      IBUF                        : 13
+#      OBUF                        : 21
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             253  out of  18224     1%  
+ Number of Slice LUTs:                  531  out of   9112     5%  
+    Number used as Logic:               531  out of   9112     5%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    544
+   Number with an unused Flip Flop:     291  out of    544    53%  
+   Number with an unused LUT:            13  out of    544     2%  
+   Number of fully used LUT-FF pairs:   240  out of    544    44%  
+   Number of unique control sets:        19
+
+IO Utilization: 
+ Number of IOs:                          35
+ Number of bonded IOBs:                  35  out of    232    15%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                4  out of     16    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 87    |
+clock/fast                         | BUFG                   | 89    |
+clock/sound                        | BUFG                   | 34    |
+clock/mole_clk                     | BUFG                   | 43    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.941ns (Maximum Frequency: 144.065MHz)
+   Minimum input arrival time before clock: 7.250ns
+   Maximum output required time after clock: 3.874ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock/fast'
+  Clock period: 6.941ns (frequency: 144.065MHz)
+  Total number of paths / destination ports: 6045 / 99
+-------------------------------------------------------------------------
+Delay:               6.941ns (Levels of Logic = 6)
+  Source:            whack/led_save_3 (FF)
+  Destination:       whack/digit1_3 (FF)
+  Source Clock:      clock/fast rising
+  Destination Clock: clock/fast rising
+
+  Data Path: whack/led_save_3 to whack/digit1_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.447   0.808  whack/led_save_3 (whack/led_save_3)
+     LUT6:I3->O           12   0.205   1.013  whack/n000082 (whack/n000081)
+     LUT6:I4->O           17   0.203   1.028  whack/n000083 (whack/n0000)
+     LUT5:I4->O           13   0.205   0.933  whack/Mmux_digit0[3]_digit0[3]_mux_230_OUT111 (whack/Mmux_digit0[3]_digit0[3]_mux_230_OUT11)
+     LUT5:I4->O            8   0.205   0.803  whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT110411 (whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT11041)
+     LUT6:I5->O            1   0.205   0.580  whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT1402 (whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT1401)
+     LUT6:I5->O            1   0.205   0.000  whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT1405 (whack/digit2[3]_digit2[3]_mux_236_OUT<3>)
+     FDR:D                     0.102          whack/digit2_3
+    ----------------------------------------
+    Total                      6.941ns (1.777ns logic, 5.164ns route)
+                                       (25.6% logic, 74.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.711ns (frequency: 212.262MHz)
+  Total number of paths / destination ports: 4176 / 167
+-------------------------------------------------------------------------
+Delay:               4.711ns (Levels of Logic = 7)
+  Source:            clock/count1_8 (FF)
+  Destination:       clock/count1_25 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clock/count1_8 to clock/count1_25
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              5   0.447   1.059  clock/count1_8 (clock/count1_8)
+     LUT5:I0->O            1   0.203   0.000  clock/Mcompar_n0004_lut<0> (clock/Mcompar_n0004_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  clock/Mcompar_n0004_cy<0> (clock/Mcompar_n0004_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  clock/Mcompar_n0004_cy<1> (clock/Mcompar_n0004_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  clock/Mcompar_n0004_cy<2> (clock/Mcompar_n0004_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  clock/Mcompar_n0004_cy<3> (clock/Mcompar_n0004_cy<3>)
+     MUXCY:CI->O           2   0.213   0.721  clock/Mcompar_n0004_cy<4> (clock/Mcompar_n0004_cy<4>)
+     LUT3:I1->O           26   0.203   1.206  clock/_n00731 (clock/_n0073)
+     FDR:R                     0.430          clock/count1_0
+    ----------------------------------------
+    Total                      4.711ns (1.725ns logic, 2.986ns route)
+                                       (36.6% logic, 63.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock/sound'
+  Clock period: 4.039ns (frequency: 247.565MHz)
+  Total number of paths / destination ports: 641 / 36
+-------------------------------------------------------------------------
+Delay:               4.039ns (Levels of Logic = 8)
+  Source:            sound/count_4 (FF)
+  Destination:       sound/activated (FF)
+  Source Clock:      clock/sound rising
+  Destination Clock: clock/sound rising
+
+  Data Path: sound/count_4 to sound/activated
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   0.995  sound/count_4 (sound/count_4)
+     LUT5:I0->O            1   0.203   0.000  sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_lut<0> (sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<0> (sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<1> (sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<2> (sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<3> (sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<4> (sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<4>)
+     MUXCY:CI->O           1   0.213   0.684  sound/Mcompar_count[31]_GND_11_o_LessThan_2_o_cy<5> (sound/count[31]_GND_11_o_LessThan_2_o)
+     LUT4:I2->O            2   0.203   0.616  sound/_n00241 (sound/_n0024)
+     FDR:R                     0.430          sound/activated
+    ----------------------------------------
+    Total                      4.039ns (1.744ns logic, 2.295ns route)
+                                       (43.2% logic, 56.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock/mole_clk'
+  Clock period: 5.460ns (frequency: 183.136MHz)
+  Total number of paths / destination ports: 2483 / 83
+-------------------------------------------------------------------------
+Delay:               5.460ns (Levels of Logic = 3)
+  Source:            mole/i_22 (FF)
+  Destination:       mole/i_31 (FF)
+  Source Clock:      clock/mole_clk rising
+  Destination Clock: clock/mole_clk rising
+
+  Data Path: mole/i_22 to mole/i_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.447   0.981  mole/i_22 (mole/i_22)
+     LUT6:I0->O            2   0.203   0.961  mole/i[31]_GND_7_o_equal_2_o<31>14 (mole/i[31]_GND_7_o_equal_2_o<31>14)
+     LUT6:I1->O            6   0.203   0.849  mole/i[31]_GND_7_o_equal_2_o<31>2 (mole/i[31]_GND_7_o_equal_2_o)
+     LUT2:I0->O           32   0.203   1.291  mole/_n0070_inv1 (mole/_n0070_inv)
+     FDRE:CE                   0.322          mole/i_0
+    ----------------------------------------
+    Total                      5.460ns (1.378ns logic, 4.082ns route)
+                                       (25.2% logic, 74.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.303ns (Levels of Logic = 2)
+  Source:            start (PAD)
+  Destination:       btn/enable (FF)
+  Destination Clock: clk rising
+
+  Data Path: start to btn/enable
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.222   0.774  start_IBUF (start_IBUF)
+     LUT3:I2->O            1   0.205   0.000  btn/enable_rstpot (btn/enable_rstpot)
+     FD:D                      0.102          btn/enable
+    ----------------------------------------
+    Total                      2.303ns (1.529ns logic, 0.774ns route)
+                                       (66.4% logic, 33.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock/fast'
+  Total number of paths / destination ports: 865 / 82
+-------------------------------------------------------------------------
+Offset:              7.250ns (Levels of Logic = 7)
+  Source:            sw<1> (PAD)
+  Destination:       whack/digit1_0 (FF)
+  Destination Clock: clock/fast rising
+
+  Data Path: sw<1> to whack/digit1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            10   1.222   0.961  sw_1_IBUF (sw_1_IBUF)
+     LUT2:I0->O            7   0.203   0.878  whack/n0047_inv1 (whack/n0047_inv)
+     LUT6:I4->O            3   0.203   0.755  whack/n0047_inv1621_SW3 (N62)
+     LUT5:I3->O            6   0.203   0.849  whack/n0047_inv1621 (whack/n0047_inv162)
+     LUT6:I4->O            1   0.203   0.580  whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT12211_SW3 (N20)
+     LUT6:I5->O            1   0.205   0.684  whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT1223 (whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT1224)
+     LUT6:I4->O            1   0.203   0.000  whack/Mmux_digit0[3]_digit0[3]_mux_205_OUT1225 (whack/digit1[3]_digit1[3]_mux_235_OUT<0>)
+     FDR:D                     0.102          whack/digit1_0
+    ----------------------------------------
+    Total                      7.250ns (2.544ns logic, 4.706ns route)
+                                       (35.1% logic, 64.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock/fast'
+  Total number of paths / destination ports: 19 / 19
+-------------------------------------------------------------------------
+Offset:              3.874ns (Levels of Logic = 1)
+  Source:            whack/led_out_0 (FF)
+  Destination:       led<0> (PAD)
+  Source Clock:      clock/fast rising
+
+  Data Path: whack/led_out_0 to led<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             10   0.447   0.856  whack/led_out_0 (whack/led_out_0)
+     OBUF:I->O                 2.571          led_0_OBUF (led<0>)
+    ----------------------------------------
+    Total                      3.874ns (3.018ns logic, 0.856ns route)
+                                       (77.9% logic, 22.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock/sound'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            sound/speaker (FF)
+  Destination:       speaker (PAD)
+  Source Clock:      clock/sound rising
+
+  Data Path: sound/speaker to speaker
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.616  sound/speaker (sound/speaker)
+     OBUF:I->O                 2.571          speaker_OBUF (speaker)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.711|         |         |         |
+clock/fast     |    3.521|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock/fast
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.019|         |         |         |
+clock/fast     |    6.941|         |         |         |
+clock/mole_clk |    7.278|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock/mole_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.656|         |         |         |
+clock/fast     |    2.005|         |         |         |
+clock/mole_clk |    5.460|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock/sound
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock/fast     |    3.451|         |         |         |
+clock/mole_clk |    3.693|         |         |         |
+clock/sound    |    4.039|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 16.16 secs
+ 
+--> 
+
+Total memory usage is 259028 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  108 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

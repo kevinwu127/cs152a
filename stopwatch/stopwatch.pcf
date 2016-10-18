@@ -1,0 +1,49 @@
+//! **************************************************************************
+// Written by: Map P.68d on Mon Nov 09 12:51:31 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "adjust" LOCATE = SITE "T9" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "select" LOCATE = SITE "V9" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "pause" LOCATE = SITE "T5" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "reset" LOCATE = SITE "D9" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "clock/count4_24" BEL "clock/count4_23" BEL
+        "clock/count4_22" BEL "clock/count4_21" BEL "clock/count4_20" BEL
+        "clock/count4_19" BEL "clock/count4_18" BEL "clock/count4_17" BEL
+        "clock/count4_16" BEL "clock/count4_15" BEL "clock/count4_14" BEL
+        "clock/count4_13" BEL "clock/count4_12" BEL "clock/count4_11" BEL
+        "clock/count4_10" BEL "clock/count4_9" BEL "clock/count4_8" BEL
+        "clock/count4_7" BEL "clock/count4_6" BEL "clock/count4_5" BEL
+        "clock/count4_4" BEL "clock/count4_3" BEL "clock/count4_2" BEL
+        "clock/count4_1" BEL "clock/count4_0" BEL "clock/count3_14" BEL
+        "clock/count3_13" BEL "clock/count3_12" BEL "clock/count3_11" BEL
+        "clock/count3_10" BEL "clock/count3_9" BEL "clock/count3_8" BEL
+        "clock/count3_7" BEL "clock/count3_6" BEL "clock/count3_5" BEL
+        "clock/count3_4" BEL "clock/count3_3" BEL "clock/count3_2" BEL
+        "clock/count3_1" BEL "clock/count3_0" BEL "clock/blink" BEL
+        "clock/fast" BEL "clock/count1_9" BEL "clock/count1_8" BEL
+        "clock/count1_7" BEL "clock/count1_6" BEL "clock/count1_5" BEL
+        "clock/count1_4" BEL "clock/count1_3" BEL "clock/count1_2" BEL
+        "clock/count1_1" BEL "clock/count1_0" BEL "clock/count1_10" BEL
+        "clock/count1_11" BEL "clock/count1_12" BEL "clock/count1_13" BEL
+        "clock/count1_14" BEL "clock/one_hertz" BEL "clock/count1_15" BEL
+        "clock/count1_16" BEL "clock/count1_17" BEL "clock/count1_18" BEL
+        "clock/count1_19" BEL "clock/count1_20" BEL "clock/count1_21" BEL
+        "clock/count1_25" BEL "clock/count1_24" BEL "clock/count1_23" BEL
+        "clock/count1_22" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

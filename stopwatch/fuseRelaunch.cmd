@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/152/Desktop/kevin-shuowang/stopwatch/stopwatch_isim_beh.exe" -prj "C:/Users/152/Desktop/kevin-shuowang/stopwatch/stopwatch_beh.prj" "work.stopwatch" "work.glbl" 

@@ -1,0 +1,6 @@
+verilog work "whack.v"
+verilog work "mole.v"
+verilog work "display.v"
+verilog work "clock.v"
+verilog work "whack_a_mole.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

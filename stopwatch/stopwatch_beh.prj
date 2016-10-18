@@ -1,0 +1,8 @@
+verilog work "second_counter2.v"
+verilog work "second_counter1.v"
+verilog work "minute_counter2.v"
+verilog work "minute_counter1.v"
+verilog work "display.v"
+verilog work "clock.v"
+verilog work "stopwatch.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

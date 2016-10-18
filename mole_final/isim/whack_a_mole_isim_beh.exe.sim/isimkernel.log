@@ -1,0 +1,28 @@
+Command line:
+   whack_a_mole_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49457
+
+Fri Nov 20 12:26:33 2015
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 828.248 Meg
+
+ Total Signals          : 40
+ Total Nets             : 137
+ Total Signal Drivers   : 22
+ Total Blocks           : 8
+ Total Primitive Blocks : 5
+ Total Processes        : 34
+ Total Traceable Variables  : 46
+ Total Scalar Nets and Variables : 545
+
+ Total Simulation Time: 14.8825 sec
+
+ Current Memory Usage: 828.248 Meg
+
+Fri Nov 20 12:26:49 2015
+

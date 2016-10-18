@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/152/Desktop/mole/whack_a_mole_isim_beh.exe -prj C:/Users/152/Desktop/mole/whack_a_mole_beh.prj work.whack_a_mole work.glbl 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/152/Desktop/mole/whack.v" into library work
+Analyzing Verilog file "C:/Users/152/Desktop/mole/mole.v" into library work
+Analyzing Verilog file "C:/Users/152/Desktop/mole/display.v" into library work
+Analyzing Verilog file "C:/Users/152/Desktop/mole/clock.v" into library work
+Analyzing Verilog file "C:/Users/152/Desktop/mole/whack_a_mole.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/152/Desktop/mole/whack_a_mole.v" Line 57: Size mismatch in connection of port <difficulty>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/152/Desktop/mole/whack_a_mole.v" Line 64: Size mismatch in connection of port <enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module clock
+Compiling module mole
+Compiling module display
+Compiling module whack
+Compiling module whack_a_mole
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/152/Desktop/mole/whack_a_mole_isim_beh.exe
+Fuse Memory Usage: 27336 KB
+Fuse CPU Usage: 576 ms
